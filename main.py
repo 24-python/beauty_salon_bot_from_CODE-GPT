@@ -3,6 +3,7 @@ from config import TOKEN
 from database import init_db
 from handlers import user_handlers, admin_handlers
 
+
 # Инициализация бота и диспетчера
 bot = Bot(token=TOKEN)
 dp = Dispatcher(bot)
